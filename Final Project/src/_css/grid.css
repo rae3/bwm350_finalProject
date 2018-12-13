@@ -1,0 +1,58 @@
+/*Grid Styles*/
+*{
+    box-sizing: border-box;
+}
+html, body {
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Width of containers*/
+.w-f-100{width:100px;}
+.w-f-150{width:150px;}
+.w-f-200{width:200px;}
+.w-f-250{width:250px;}
+.w-f-300{width:300px;}
+.w-f-400{width:400px;}
+.w-f-500{width:500px;}
+.w-f-600{width:600px;}
+.w-f-700{width:700px;}
+.w-f-800{width:800px;}
+.w-f-900{width:900px;}
+.w-f-1000{width:1000px;}
+
+/* Main Container */
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+/* Column Width */
+.col-1    {width: 8.33%;  }
+.col-2    {width: 16.66%; }
+.col-3    {width: 25%;    }
+.col-4    {width: 33.33%; }
+.col-5    {width: 41.66%; }
+.col-6    {width: 50%;    }
+.col-7    {width: 58.33%; }
+.col-8    {width: 66.66%; }
+.col-9    {width: 75%;    }
+.col-10   {width: 83.33%; }
+.col-11   {width: 91.66%; }
+.col-12   {width: 100%;   }
+
+[class*="col-"]{
+    float:left;
+}
+.row{
+    margin:0; 
+    padding: 0;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
